@@ -23,7 +23,8 @@ export const Status = styled.span`
   height: 12px;
   background-color: ${props => {
     return props.isOnline ? 'green' : 'red';
-  }};
+}};
+  border-radius: 50%;
 `;
 
 export const Image = styled.img`
